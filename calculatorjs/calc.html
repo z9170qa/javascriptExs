@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel = "stylesheet" href = "calcstyles.css">
+</head>
+
+<body>
+    <h1 style="color: chocolate;"> <u>CALCULATOR</u> </h1>   
+    <br>
+    <br>
+    <input id="text1" value = "num1">
+    <input id="text2" value = "num2">
+    <br>
+    <br>
+    <input id="out" value = 0>
+    <button id="add" onclick="add()">+</button>
+    <button id="subtract" onclick="subtract()">-</button>
+    <button id="multiply" onclick="multiply()">x</button>
+    <button id="divide" onclick="divide()">/</button>
+    <button id="power" onclick="power()">^</button>
+    <button id="root" onclick="root()">Root</button>
+    <br>
+    <br>
+    <h1 style="color: chocolate;"> <u>HISTORY</u></h1>
+    <div id="add-history">
+    <button style="color: darkgreen;" onclick="addHis()">Add History</button>
+    </div>
+    <script src="./calculator.js">
+    </script>       
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-image: url("galaxy.jpg")
+}
+
+
+#text1 {
+    color: black;
+}
+
+#text2 {
+    color: black;
+}
+
+#out {
+    color: darkgreen;
+}
+
+
+#add {
+    color: blue;
+}
+
+#subtract {
+    color: crimson;
+}
+
+#multiply {
+    color: blue;
+}
+
+#divide {
+    color: crimson;
+}
+
+#power {
+    color: blue;
+}
+
+#root {
+    color: crimson;
+}
+
+#add-history {
+    color: rgb(200, 197, 0);
+    font-size: 200%;
+    
+}
